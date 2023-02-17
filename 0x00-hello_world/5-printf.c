@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - entry point
  *
- * Description: Print a line using printf
+ * Description:Print a line using printf
  *
  * Return: 0
  */
