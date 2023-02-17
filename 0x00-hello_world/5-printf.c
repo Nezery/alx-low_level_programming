@@ -1,6 +1,5 @@
 #include <stdio.h>
-/**
- *
+/*
  * main - entry point
  *
  * Description: Print a line using printf
