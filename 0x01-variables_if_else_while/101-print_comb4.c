@@ -16,7 +16,7 @@ int main(void)
 				digit2++)
 		{
 			for (digit3 = digit2 + 1; digit3 < 10;
-					digit2++)
+					digit3++)
 			{
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
@@ -26,6 +26,7 @@ int main(void)
 					continue;
 
 				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
