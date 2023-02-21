@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 
 	for (echo = 0; echo <= 9; echo++)
 	{
-		for (lima = 'a'; lima <= '9'; lima++)
+		for (lima = 'a'; lima <= 'z'; lima++)
 		{
 			_putchar(lima);
 		}
