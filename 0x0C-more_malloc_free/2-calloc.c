@@ -2,7 +2,7 @@
 
 /**
  * _calloc - allcates memory for an array of @nmemb elements of
- * @size bytes each and returns a pointer to the allocated memory.
+ * @size: bytes each and returns a pointer to the allocated memory.
  *
  * @nmemb: alloccate element of size byes
  *
