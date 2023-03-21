@@ -5,7 +5,8 @@
  * init_dog - initialize a structure of type dog
  * @d: pointer to structure
  * @name: pointer to the name of the dog
- * @age: pointer to owner of dog
+ * @age: age of dog
+ * @owner: pointer to ownewr of dog
  *
  * Return: void
  */
