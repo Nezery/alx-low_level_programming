@@ -5,22 +5,26 @@
  * int_index - search for an integer
  * @array: array to execute a func on
  * @size:  number of element in the array
- * @cmp: pointer to the function to compare value
+ * @cmp: points to a function used to compare value.
  *
  * Return: void
  */
-void array_iterator(int *array, size_t size, void (*action)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	size_t i;
+	int i = 0;
 
-	if (array && action)
+	if (size > 0)
 	{
-		i = 0;
-		while (i < size)
+		if (array != NULL && cmp != NULL)
 		{
-			action(array[i]);
+			while (i < size)
 
-			i++;
+			{
+				if (cmp(array[i]))
+					return (i);
+				i++;
+			}
 		}
 	}
+	return (-1);
 }
