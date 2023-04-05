@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
 
 
 /**
@@ -12,7 +13,10 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t alpha = 0;
+	size_t alpha;
+
+	alpha = 0;
+
 
 	while (h != NULL)
 	{
